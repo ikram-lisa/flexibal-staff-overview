@@ -114,7 +114,7 @@ body {
     &--user {
       @include icon("user", $white, 18px);
     }
-    &--logOut {
+    &--email {
       @include icon("email", $white, 18px);
     }
   }

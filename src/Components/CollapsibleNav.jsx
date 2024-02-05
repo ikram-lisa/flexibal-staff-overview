@@ -8,7 +8,7 @@ const CollapsibleNav = ({ isInitiallyCollapsed }) => {
     { name: "Dashboard", icon: "dashboard" },
     { name: "Schedule", icon: "calendar" },
     { name: "Employees", icon: "user" },
-    { name: "Message", icon: "logOut" },
+    { name: "Message", icon: "email" },
   ];
   const CollapsibleNavToggle = () => {
     setIsCollapsed(!isCollapsed);
