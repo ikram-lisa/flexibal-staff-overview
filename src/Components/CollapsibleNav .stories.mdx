@@ -1,0 +1,40 @@
+import { Meta, Story, Canvas } from "@storybook/addon-docs/blocks";
+import CollapsibleNav from "./CollapsibleNav";
+
+<Meta title="Components/CollapsibleNav" component={CollapsibleNav} />
+
+# CollapsibleNav Component
+
+`CollapsibleNav` is a responsive sidebar navigation component for React applications...
+
+## Live Example
+
+You can see the `CollapsibleNav` component live in action at [flexibal-staff-overview-ikram.surge.sh](http://flexibal-staff-overview-ikram.surge.sh).
+
+## Usage
+
+```jsx
+import CollapsibleNav from "path/to/CollapsibleNav";
+
+function MyApp() {
+  return (
+    <>
+      <CollapsibleNav />
+    </>
+  );
+}
+Props
+<Props of={CollapsibleNav} />
+
+## Story Examples
+
+<Canvas>
+  <Story name="Default" args={{ isInitiallyCollapsed: false }}>
+    {args => <CollapsibleNav {...args} />}
+  </Story>
+  <Story name="Collapsed" args={{ isInitiallyCollapsed: true }}>
+    {args => <CollapsibleNav {...args} />}
+  </Story>
+</Canvas>
+
+```
